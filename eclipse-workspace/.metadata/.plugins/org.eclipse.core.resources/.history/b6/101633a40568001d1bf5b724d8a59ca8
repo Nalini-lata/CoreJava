@@ -1,0 +1,19 @@
+package DemoPack;
+
+public class StringClassDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//String is a class
+		// Two ways:- By new Kewword  and by literals
+		
+		
+		
+		String a= "Javatraining";
+		
+		System.out.println(a.charAt(2));
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package JavaPractice;
+
+public class FirstClass {
+
+	
+	public void getData() {
+		System.out.println("I am a firstClass");
+	}
+	public static void main(String[] args) {
+		
+		FirstClass obj= new FirstClass();
+		SecondClass obj1= new SecondClass();
+		obj.getData();
+		obj1.setData();
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package JavaPractice;
+
+public class ForLoopExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		if(5>2) {
+			
+			System.out.println("Success");			
+		}
+		
+		else {
+			
+			System.out.println("I am not bigger");
+			
+			
+		}
+	}
+
+}

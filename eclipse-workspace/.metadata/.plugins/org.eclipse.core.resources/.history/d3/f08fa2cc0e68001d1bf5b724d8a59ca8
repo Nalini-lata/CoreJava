@@ -1,0 +1,22 @@
+package DemoPack;
+
+public class StringReverseDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s= "madam";
+		
+	for(int i=s.length();i>0;i--) {
+		
+		System.out.println(s.charAt(i));
+		
+		
+			
+			
+			
+		}
+		
+	}
+
+}

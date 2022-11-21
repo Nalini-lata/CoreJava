@@ -1,0 +1,28 @@
+package coreJavaTraining;
+
+public class Intro {
+	
+	static int a= 4;
+	
+	public void add() {
+		
+		System.out.println("I am in method");
+		//int a=10;
+		
+		//return 2; then method return type should be 2
+		
+	}
+
+	public static void main(String[] args) {
+		
+		Intro obj = new Intro();
+		//SecondClass sc= new SecondClass()
+		obj.add();
+		
+		
+		System.out.println("Hello world");
+		System.out.println(obj.a);
+
+	}
+
+}

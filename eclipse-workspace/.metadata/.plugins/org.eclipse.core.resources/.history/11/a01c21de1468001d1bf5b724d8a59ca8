@@ -1,0 +1,19 @@
+package DemoPack;
+
+public class StringsConceptDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//By string literals copy of objects will be not created
+		// By new keyword it creates copy of an object if already available
+		
+		String a="hello";
+		String b="hello";
+	    System.out.println(a.concat("world"));	
+		
+		//
+
+	}
+
+}

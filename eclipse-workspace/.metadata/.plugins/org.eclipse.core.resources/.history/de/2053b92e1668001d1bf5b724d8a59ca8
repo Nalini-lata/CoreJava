@@ -1,0 +1,27 @@
+package DemoPack;
+
+public class StringsConceptDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//By string literals copy of objects will be not created
+		// By new keyword it creates copy of an object if already available
+		
+		String a="hello";
+		String b="hello";
+		//a.concat("World");
+	    System.out.println(a);
+	    
+	  //  Output is hello just because string is immutatble. String immutable because both reference variable point out same so it will create problem
+	    // by new string we can add
+	    String c= a.concat("World");
+	    System.out.println(c);
+	    
+		
+	    
+		//
+
+	}
+
+}
